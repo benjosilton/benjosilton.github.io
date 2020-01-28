@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Google Fonts ... for Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Lato|Poppins|Raleway&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<!-- Bootstrap Styles -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- My CSS Styles -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Title -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Klean Kellogg</title>
+</head>
+
+<!-- NAV BAR -->
+<body style="background-color: #d1ffd8">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand" href="#">
+    <img id="logo" class="d-inline-block mr-1" alt="Logo" src="kleankellogg-logo-green-small.png" height="80px"> 
+</a>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">
+            <i class="fas fa-home"></i>
+            Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="KK_about.html">
+            <i class="fas fa-globe-americas"></i>
+            About</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-wrench"></i>
+            Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="KK_compost.html">Compost</a>
+        <a class="dropdown-item" href="KK_tgcups.html">TG Cups</a>
+        </div>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="KK_contact.html">
+            <i class="fas fa-pen"></i>
+            Contact<span class="sr-only">(current)</span></a>
+    </li>
+    </ul>
+</div>
+</nav>
+
+<!-- PAGE CONTENT -->
+<center>
+    <br><br>
+<h3>Please email Ben at ben.silton@kellogg.northwestern.edu with questions or inquiries
+    <br>or feel free to fill out the form below.</h3>
+<br><br>
+
+<!-- FORM -->
+<form action="https://formspree.io/xzbewobn" method="POST">
+
+    <div class="form-group row" style="justify-content: center;">
+        <div class="col-sm-3">
+          <label for="name_input"><p>Name</p></label>
+          <input type="text" name="name" class="form-control" id="name_input">
+        </div>
+        <div class="col-sm-3">
+          <label for="email_input"><p>Email</p></label>
+          <input type="text" name="email" class="form-control" id="email_add">
+        </div>
+      </div>
+      <br>
+    <div class="form-group" style="justify-content: center;">
+        <div class="col-sm-7">
+        <label for="inquiry_input"><p>Inquiry</p></label>
+        <textarea type="text" class="form-control" name="inquiry" id="inquiry" rows="5"></textarea>
+      </div>
+    </div>
+    <button class="btn btn-success">
+      Submit
+    </button>
+  </form>
+
+</center>
+
+<!-- Footer -->
+<div class="container footer">
+<div class="row my-5">
+    <div class="col-md-4">
+    <img src="kleankellogg-logo-green-small.png">
+    </div>
+    <div class="col-md-4">
+        <h3><br></h3>
+        <p>Thx for Connecting!</p>
+    </div>
+    <div class="col-md-4">
+    <h3><br></h3>
+    <p>(c) Klean Kellogg 2019</p>
+    </div>
+</div>
+</div>
+
+<!-- JavaScript Code -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
